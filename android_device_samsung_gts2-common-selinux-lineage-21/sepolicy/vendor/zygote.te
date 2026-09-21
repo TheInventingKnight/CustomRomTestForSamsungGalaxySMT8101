@@ -1,0 +1,5 @@
+#============= zygote ==============
+allow zygote exported_camera_prop:file r_file_perms;
+allow zygote sysfs:dir { open read };
+allow zygote sysfs:file r_file_perms;
+allow zygote vendor_file:file r_file_perms;
